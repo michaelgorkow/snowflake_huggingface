@@ -1,0 +1,15 @@
+name: pysnowpark_huggingface
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+dependencies:
+  - python=3.11
+  - ipykernel
+  - pip
+  - pip:
+    # Snowpark
+    - snowflake-snowpark-python[pandas]==1.14.0
+    - snowflake-ml-python==1.4.0
+    # Other
+    - sentence-transformers==2.2.2
+    - torch==2.2.0
+    - python-dotenv
