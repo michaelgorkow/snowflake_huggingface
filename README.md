@@ -26,7 +26,7 @@ Adapt the code to align with your authorization process for Snowflake.
 This example assumes the presence of a .env file in the working directory containing the credentials for your Snowflake account.
 
 ### Step 3: Run the Notebook
-Launch the multilanguage_embeddings.ipynb notebook to see the integration in action.  
+Launch any of the notebooks to see the integration in action.  
 This Jupyter notebook contains all necessary steps to load, deploy, and query Hugging Face models directly within Snowflake.
 
 ### Learn More
